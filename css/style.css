@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +13,9 @@ div {
 }
 
 body {
-  background-color: #BECAE2;
-  color: #BECAE2;
-  font-family: "";
+  background-color: #becae2;
+  color: #becae2;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -22,7 +24,8 @@ body {
 }
 
 #quote-box {
-  background-color: white;
+  background-color: #ffffff;
+  position: relative;
   border-radius: 5px;
   width: 500px;
   padding: 40px 50px;
@@ -30,18 +33,18 @@ body {
   text-align: center;
 }
 
-#quote-text {
+.quote-text {
   text-align: center;
-  border: 1px solid black;
   width: 450px;
   height: auto;
   clear: both;
   font-weight: 500;
   font-size: 2em;
+  color: #becae2;
 }
 
-.quote-text i{
-  font-size: 1.0em;
+.quote-text i {
+  font-size: 1em;
   margin-right: 0.4em;
 }
 
@@ -65,9 +68,9 @@ body {
   border: none;
   border-radius: 5px;
   color: #ffffff;
-  background-color: #BECAE2;
+  background-color: #becae2;
   outline: none;
-  font-size: 0.90em;
+  font-size: 0.9em;
   padding: 8px 18px 6px 18px;
   margin-top: 30px;
   opacity: 1;
@@ -75,7 +78,7 @@ body {
 }
 
 .button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 #tweet-quote {
@@ -91,4 +94,17 @@ body {
 
 #new-quote {
   float: right;
+}
+
+.footer {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  display: block;
+  font-size: 0.85em;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
 }
