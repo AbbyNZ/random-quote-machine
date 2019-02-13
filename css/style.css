@@ -1,10 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
 
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   vertical-align: baseline;
+}
+
+div#title {
+	position: inherit;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	font-family: Broadway;
+	justify-content: center;
+	width: 600px;
+	margin-bottom: 50px;
 }
 
 div {
@@ -14,8 +25,8 @@ div {
 
 body {
   background-color: #becae2;
-  color: #becae2;
-  font-family: "Raleway", sans-serif;
+  color: #7f9ddb;
+  font-family: 'Merriweather', serif;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -31,6 +42,7 @@ body {
   padding: 40px 50px;
   display: table;
   text-align: center;
+  align-items: center;
 }
 
 .quote-text {
@@ -38,9 +50,9 @@ body {
   width: 450px;
   height: auto;
   clear: both;
-  font-weight: 500;
-  font-size: 2em;
-  color: #becae2;
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #7f9ddb;
 }
 
 .quote-text i {
@@ -83,13 +95,12 @@ body {
 
 #tweet-quote {
   float: left;
-  padding: 0px;
-  paddind-top: 8px;
+  padding: 5px;
   text-align: center;
   font-size: 1.2em;
   margin-right: 5px;
   height: 30px;
-  width: 40px;
+  width: 65px;
 }
 
 #new-quote {
